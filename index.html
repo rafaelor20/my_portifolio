@@ -28,6 +28,17 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
+        div.projects {
+            display: flex;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
         img.profile-picture {
             width: 200px;
             border-radius: 10%;
@@ -68,7 +79,7 @@
         .project {
             border-bottom: 1px solid #ccc;
             padding-bottom: 10px;
-            margin-bottom: 20px;
+            margin: 20px;
         }
 
         footer {
@@ -138,45 +149,48 @@
     <section>
         <h2>Projects</h2>
 
-        <div class="project">
-            <h3>Driven Plus</h3>
-            <a href="https://driven-plus-psi.vercel.app/" target="_blank">
-                <img class="project-picture" src="asset/drivenPlus.png" alt="Driven Plus">
-            </a>
-            <p>
-                Este projeto é uma aplicação focada em uso mobile que simula um site de cadastro em cursos criado usando
-                o framework react.
-                <br>
-                <a>
-                    Link do código:
-                    <a href="https://github.com/rafaelor20/Driven-Plus" target="_blank">
-                        https://github.com/rafaelor20/Driven-Plus
-                    </a>
+        <div class="projects">
+            <div class="project">
+                <h3>Driven Plus</h3>
+                <a href="https://driven-plus-psi.vercel.app/" target="_blank">
+                    <img class="project-picture" src="asset/drivenPlus.png" alt="Driven Plus">
                 </a>
-            </p>
-        </div>
+                <p>
+                    Este projeto é uma aplicação focada em uso mobile que simula um site de cadastro em cursos criado
+                    usando
+                    o framework react.
+                    <br>
+                    <a>
+                        Link do código:
+                        <a href="https://github.com/rafaelor20/Driven-Plus" target="_blank">
+                            https://github.com/rafaelor20/Driven-Plus
+                        </a>
+                    </a>
+                </p>
+            </div>
 
-        <div class="project">
-            <h3>DrivenEats</h3>
-            <a href="https://rafaelor20.github.io/Driveneats/" target="_blank">
-                <img class="project-picture" src="asset/drivenEats.png" alt="DrivenEats">
-            </a>
-            <p>
-                Driven Eats é uma aplicação web focada em uso mobile para um serviço de entrega de comida.
-                <br>
-                A aplicação permite aos usuários selecionar uma refeição, uma bebida e uma sobremesa de uma lista de
-                opções.
-                <br>
-                Uma vez que todos os três itens tenham sido selecionados, o usuário pode fazer um pedido através do
-                whatsapp.
-                <br>
-                <a>
-                    Link do código:
-                    <a href="https://github.com/rafaelor20/Driveneats" target="_blank">
-                        https://github.com/rafaelor20/Driveneats
-                    </a>
+            <div class="project">
+                <h3>DrivenEats</h3>
+                <a href="https://rafaelor20.github.io/Driveneats/" target="_blank">
+                    <img class="project-picture" src="asset/drivenEats.png" alt="DrivenEats">
                 </a>
-            </p>
+                <p>
+                    Driven Eats é uma aplicação web focada em uso mobile para um serviço de entrega de comida.
+                    <br>
+                    A aplicação permite aos usuários selecionar uma refeição, uma bebida e uma sobremesa de uma lista de
+                    opções.
+                    <br>
+                    Uma vez que todos os três itens tenham sido selecionados, o usuário pode fazer um pedido através do
+                    whatsapp.
+                    <br>
+                    <a>
+                        Link do código:
+                        <a href="https://github.com/rafaelor20/Driveneats" target="_blank">
+                            https://github.com/rafaelor20/Driveneats
+                        </a>
+                    </a>
+                </p>
+            </div>
         </div>
 
         <!-- Add more projects as needed -->
