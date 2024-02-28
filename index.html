@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Developer Portfolio</title>
+    <title>Raafel Dev</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -37,6 +37,22 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        div.skills {
+            display: flex;
+            justify-content: flex-start;
+            overflow-x: scroll;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        div.skills-box {
+            margin-right: 20px;
+            min-width: 200px;
         }
 
         img.profile-picture {
@@ -102,7 +118,6 @@
 
     <section>
         <h2>Sobre mim</h2>
-        <!-- <img class="profile-picture" src="asset/photo.png" alt="Rafael Rosário - Desenvolvedor de software"> -->
         <img class="profile-picture" src="asset/photo.png" alt="Rafael Rosário - Desenvolvedor de software">
         <p>
             Olá, eu sou Rafael, um desenvolvedor Full Stack apaixonado por tecnologia e por encontrar soluções
@@ -147,9 +162,10 @@
     </section>
 
     <section>
-        <h2>Projects</h2>
+        <h2>Projetos</h2>
 
         <div class="projects">
+
             <div class="project">
                 <h3>Driven Plus</h3>
                 <a href="https://driven-plus-psi.vercel.app/" target="_blank">
@@ -191,66 +207,82 @@
                     </a>
                 </p>
             </div>
+
         </div>
 
-        <!-- Add more projects as needed -->
     </section>
 
     <section>
         <h2>Skills</h2>
 
-        <h3>Linguagens de Programação e Frameworks</h3>
-        <ul>
-            <li>NodeJS</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+        <div class="skills">
 
-        <h3>Banco de Dados</h3>
-        <ul>
-            <li>MongoDB</li>
-            <li>PostgreSQL</li>
-            <li>Redis</li>
-            <li>Prisma ORM</li>
-        </ul>
+            <div class="skills-box">
+                <h3>Linguagens de Programação e Frameworks</h3>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
 
-        <h3>Testes Automatizados</h3>
-        <ul>
-            <li>Jest</li>
-            <li>Supertest (utilizados para testes unitários e de integração)</li>
-        </ul>
+            <div class="skills-box">
+                <h3>Banco de Dados</h3>
+                <ul>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                    <li>Redis</li>
+                    <li>Prisma ORM</li>
+                </ul>
+            </div>
 
-        <h3>Ferramentas</h3>
-        <ul>
-            <li>Spring Boot</li>
-            <li>Express</li>
-            <li>Git</li>
-            <li>Rest</li>
-            <li>Docker</li>
-            <li>NGINX</li>
-            <li>AWS</li>
-            <li>Linux</li>
-        </ul>
+            <div class="skills-box">
+                <h3>Testes Automatizados</h3>
+                <ul>
+                    <li>Jest</li>
+                    <li>Supertest (utilizados para testes unitários e de integração)</li>
+                </ul>
+            </div>
 
-        <h3>Conceitos e Práticas</h3>
-        <ul>
-            <li>Metodologias Ágeis (Scrum, Kanban)</li>
-            <li>Clean Code</li>
-            <li>SOLID</li>
-            <li>TDD (Test Driven Development)</li>
-            <li>Orientação a Objetos (OOP)</li>
-            <li>Complexidade de Algoritmos</li>
-            <li>Processos de Deploy e CI/CD</li>
-            <li>UML (Diagrama de Caso de Uso e Diagrama de Atividades)</li>
-        </ul>
+            <div class="skills-box">
+                <h3>Ferramentas</h3>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>Express</li>
+                    <li>Git</li>
+                    <li>Rest</li>
+                    <li>Docker</li>
+                    <li>NGINX</li>
+                    <li>AWS</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
 
-        <h3>Idiomas</h3>
-        <ul>
-            <li>Inglês (C1 Avançado)</li>
-        </ul>
+            <div class="skills-box">
+                <h3>Conceitos e Práticas</h3>
+                <ul>
+                    <li>Metodologias Ágeis (Scrum, Kanban)</li>
+                    <li>Clean Code</li>
+                    <li>SOLID</li>
+                    <li>TDD (Test Driven Development)</li>
+                    <li>Orientação a Objetos (OOP)</li>
+                    <li>Complexidade de Algoritmos</li>
+                    <li>Processos de Deploy e CI/CD</li>
+                    <li>UML (Diagrama de Caso de Uso e Diagrama de Atividades)</li>
+                </ul>
+            </div>
+
+            <div class="skills-box">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Inglês (C1 Avançado)</li>
+                </ul>
+            </div>
+
+        </div>
 
     </section>
 
